@@ -8,9 +8,7 @@ find_package(GLEW REQUIRED)
 find_package(GLUT REQUIRED)
 
 add_executable(${PROJECT_NAME} main.cpp
-        Window.cpp
-        Window.h
-        shader.h
+        texture.h
         shaders.h
 )
 
